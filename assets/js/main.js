@@ -71,3 +71,8 @@ function deleteChar() {
 let gen = generator();
 
 printChar(words[gen.next().value]);
+
+var home = document.getElementById("home")
+function reload(){
+  window.reload();
+}

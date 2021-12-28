@@ -11,6 +11,9 @@
   --black: #17202a;
   --blue: #2e86c1;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -20,31 +23,6 @@ body {
   background: var(--green);
   background-size: 100% 100%;
 }
-#nav-bar {
-  background: var(--cream) !important;
-
-  /* border-bottom: var(--dark-blue) 1px solid; */
-  /* box-shadow: 1px 1px 10px var(--black); */
-}
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
-  /* padding-left: 50%; */
-}
-.nav-link,
-.navbar-brand {
-  color: var(--dark-blue) !important;
-}
-.nav-link {
-  font-family: "Lato", sans-serif;
-  font-weight:bolder;
-  font-size: 20Px;
-}
-.brand {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-
 .logo-img {
   width: 150px;
 }
@@ -60,9 +38,8 @@ a {
     90deg,
     rgba(92, 219, 149, 1) 0%,
     rgba(92, 219, 149, 1) 50%,
-    rgba(237, 245, 225, 1)50%,
+    rgba(237, 245, 225, 1) 50%,
     rgba(237, 245, 225, 1) 100%
-    
   );
   padding-top: 5px;
   font-family: "Public Sans", sans-serif;
@@ -74,14 +51,8 @@ a {
   min-height: 100vh;
   border-bottom: var(--blue) solid;
 }
-/* #home .hedding {
-  color: #fff;
-  justify-content: center;
 
-  font-size: 100px;
-} */
 #about {
-
   padding-top: 65px;
   border-bottom: var(--blue) solid;
 }
@@ -100,10 +71,10 @@ a {
   font-size: 1.3rem;
   letter-spacing: 1.5px;
 }
-#about .par{
+#about .par {
   padding-left: 50px;
 }
-.highlight{
+.highlight {
   color: var(--cream);
 }
 #image-gallary {
@@ -184,7 +155,7 @@ footer {
   padding: 15px;
   width: 50px;
   height: 50px;
-  box-shadow: 2px 2px 10px var(--black);
+  box-shadow: 2px 2px 10px var(--cream);
   color: var(--dark-blue);
 }
 
@@ -242,8 +213,8 @@ a {
     border-color: 2px solid #747474;
   }
 }
-@media screen and (max-width: 670px) 
-{.hero-text {
+@media screen and (max-width: 670px) {
+  .hero-text {
     font-size: 40px;
   }
   img {
@@ -294,8 +265,8 @@ a {
     border-color: 2px solid #747474;
   }
 }
-@media screen and (max-width: 670px)
-{ .hero-text {
+@media screen and (max-width: 670px) {
+  .hero-text {
     font-size: 40px;
   }
   img {
