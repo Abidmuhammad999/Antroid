@@ -143,6 +143,9 @@ height: 75vh;
   border-bottom: var(--cream) double 10px;
   padding: 20px;
 }
+#versions .version-image{
+width: 100px;
+}
 footer {
   background-color: var(--green-blue);
   text-align: center;
